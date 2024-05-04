@@ -20,6 +20,7 @@
 		3EC6723C2BE66F4B00C21F75 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6723B2BE66F4B00C21F75 /* AuthViewModel.swift */; };
 		3EC6723E2BE67BE500C21F75 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6723D2BE67BE500C21F75 /* LoginView.swift */; };
 		3EC672402BE67BEF00C21F75 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6723F2BE67BEF00C21F75 /* HomeView.swift */; };
+		3EC672422BE67CAC00C21F75 /* GoogleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC672412BE67CAC00C21F75 /* GoogleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		3EC6723B2BE66F4B00C21F75 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		3EC6723D2BE67BE500C21F75 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3EC6723F2BE67BEF00C21F75 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3EC672412BE67CAC00C21F75 /* GoogleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				3EC6723D2BE67BE500C21F75 /* LoginView.swift */,
 				3EC6723F2BE67BEF00C21F75 /* HomeView.swift */,
+				3EC672412BE67CAC00C21F75 /* GoogleButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				3EC6721D2BE669A900C21F75 /* ContentView.swift in Sources */,
 				3EC6721B2BE669A900C21F75 /* LoginGoogleApp.swift in Sources */,
 				3EC6723E2BE67BE500C21F75 /* LoginView.swift in Sources */,
+				3EC672422BE67CAC00C21F75 /* GoogleButtonView.swift in Sources */,
 				3EC672402BE67BEF00C21F75 /* HomeView.swift in Sources */,
 				3EC6723C2BE66F4B00C21F75 /* AuthViewModel.swift in Sources */,
 			);
