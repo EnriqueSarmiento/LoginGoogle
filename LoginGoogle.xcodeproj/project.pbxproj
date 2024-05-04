@@ -15,6 +15,8 @@
 		3EC6722E2BE66A9700C21F75 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3EC6722D2BE66A9700C21F75 /* GoogleSignInSwift */; };
 		3EC672312BE66B0900C21F75 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3EC672302BE66B0900C21F75 /* FirebaseAuth */; };
 		3EC672332BE66B0900C21F75 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3EC672322BE66B0900C21F75 /* FirebaseAuthCombine-Community */; };
+		3EC672372BE66DB300C21F75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EC672362BE66DB300C21F75 /* GoogleService-Info.plist */; };
+		3EC6723A2BE66E1B00C21F75 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 3EC672392BE66E1B00C21F75 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		3EC6721C2BE669A900C21F75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3EC6721E2BE669AD00C21F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC672212BE669AD00C21F75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EC672362BE66DB300C21F75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3EC672382BE66DD800C21F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3EC672392BE66E1B00C21F75 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +64,15 @@
 		3EC672192BE669A900C21F75 /* LoginGoogle */ = {
 			isa = PBXGroup;
 			children = (
+				3EC672382BE66DD800C21F75 /* Info.plist */,
+				3EC672362BE66DB300C21F75 /* GoogleService-Info.plist */,
 				3EC672292BE66A6400C21F75 /* ViewModels */,
 				3EC672282BE66A6000C21F75 /* Views */,
 				3EC6721A2BE669A900C21F75 /* LoginGoogleApp.swift */,
 				3EC6721C2BE669A900C21F75 /* ContentView.swift */,
 				3EC6721E2BE669AD00C21F75 /* Assets.xcassets */,
 				3EC672202BE669AD00C21F75 /* Preview Content */,
+				3EC672392BE66E1B00C21F75 /* Readme.md */,
 			);
 			path = LoginGoogle;
 			sourceTree = "<group>";
@@ -161,6 +169,8 @@
 			files = (
 				3EC672222BE669AD00C21F75 /* Preview Assets.xcassets in Resources */,
 				3EC6721F2BE669AD00C21F75 /* Assets.xcassets in Resources */,
+				3EC6723A2BE66E1B00C21F75 /* Readme.md in Resources */,
+				3EC672372BE66DB300C21F75 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +319,7 @@
 				DEVELOPMENT_TEAM = 49PNZ9QC53;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginGoogle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +350,7 @@
 				DEVELOPMENT_TEAM = 49PNZ9QC53;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginGoogle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
